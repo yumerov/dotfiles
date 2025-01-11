@@ -1,0 +1,8 @@
+[alias]
+    s=status --short
+    b=branch
+    co=checkout
+    md="merge develop"
+    cod="! git checkout develop && git pull"
+    com="! git checkout master && git pull"
+    qpush=push --no-verify
