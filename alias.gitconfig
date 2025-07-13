@@ -1,5 +1,5 @@
 [alias]
-    s=status --short
+    s=status --short --untracked-files=all
     b=branch
     co=checkout
     md="merge develop"
